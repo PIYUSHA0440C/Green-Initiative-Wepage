@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Green-Eco;
+    src: url(./Graceland.otf);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+    font-family: Green-Eco;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+#main h1{
+    color: rgb(0, 255, 51);
+    font-size: 100px;
+    font-weight: 550;
+    text-align: center;
+    margin-top: 5%;
+    /* padding-left: 500px; */
+    text-shadow: 1px 1px 20px rgba(0, 0, 0,1),
+    -1px -1px 20px rgba(0, 0, 0,1);
+}
+#nav{
+    padding: 10px 30px ;
+    background-color: #4e4e4e74;
+}
+#nav a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    margin-right: 30px;
+    text-decoration: none;
+    
+}
+
+#btmleft{
+    position: absolute;
+    padding: 1% 2%;
+    width: 100%;
+    bottom: 5%;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.27);
+    text-shadow: 1px 1px 20px rgba(0, 0, 0,1),
+    -1px -1px 20px rgba(0,0,0,1);
+}
+#btmleft h3{
+    font-size: 30px;
+}
+
+#btmleft h4{
+    font-size: 30px;
+    margin-top: 30px;
+}
+p{
+    width: 300px;
+}
+#bottombar{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    font-size: 25px;
+    padding: 5px 25px;
+    background-color: #978f8db0;
+    background-color: rgba(132, 132, 132, 0.79);
+    text-shadow: 1px 1px 20px rgba(0, 0, 0,1),
+    -1px -1px 20px rgba(0,0,0,1);
+}
+#bottombar a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#img1{
+    position: absolute;
+    height: 250px;
+    bottom: 70px;
+    right: 1%;
+}
